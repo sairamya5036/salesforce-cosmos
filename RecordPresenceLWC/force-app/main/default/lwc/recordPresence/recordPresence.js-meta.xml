@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>66.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Record Presence</masterLabel>
+    <targets>
+        <target>lightning__UtilityBar</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__UtilityBar">
+            <property
+        name="allowedObjectApiNames"
+        type="String"
+        label="Allowed Object API Names"
+        default="Case"
+        description="Comma-separated object API names that should publish presence, such as Case,Account,Custom__c."
+      />
+            <property
+        name="fieldConfig"
+        type="String"
+        label="Display Field Configuration"
+        default="Case=CaseNumber,Subject,Status"
+        description="Semicolon-separated object-to-fields config, such as Case=CaseNumber,Subject;Account=Name,Industry."
+      />
+            <property
+        name="utilityTitle"
+        type="String"
+        label="Utility Title"
+        default="Who Else Is Watching"
+      />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

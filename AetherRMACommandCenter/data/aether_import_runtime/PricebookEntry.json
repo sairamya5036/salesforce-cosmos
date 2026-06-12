@@ -1,0 +1,204 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "pbeHomePackage"
+      },
+      "Product2Id": "01tAu00000J7NjJIAV",
+      "Pricebook2Id": "01sAu000008t8zdIAA",
+      "UnitPrice": 2499,
+      "IsActive": true
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "pbeKitchenZone"
+      },
+      "Product2Id": "01tAu00000J7NjKIAV",
+      "Pricebook2Id": "01sAu000008t8zdIAA",
+      "UnitPrice": 799,
+      "IsActive": true
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "pbeLuminaUnderCabinet"
+      },
+      "Product2Id": "01tAu00000J7NjLIAV",
+      "Pricebook2Id": "01sAu000008t8zdIAA",
+      "UnitPrice": 199,
+      "IsActive": true
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "pbeOfficePackage"
+      },
+      "Product2Id": "01tAu00000J7NjMIAV",
+      "Pricebook2Id": "01sAu000008t8zdIAA",
+      "UnitPrice": 4999,
+      "IsActive": true
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "pbeMeetingRoomZone"
+      },
+      "Product2Id": "01tAu00000J7NjNIAV",
+      "Pricebook2Id": "01sAu000008t8zdIAA",
+      "UnitPrice": 1299,
+      "IsActive": true
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "pbeClientLoungeZone"
+      },
+      "Product2Id": "01tAu00000J7NjOIAV",
+      "Pricebook2Id": "01sAu000008t8zdIAA",
+      "UnitPrice": 999,
+      "IsActive": true
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "pbeFocusPodsZone"
+      },
+      "Product2Id": "01tAu00000J7NjPIAV",
+      "Pricebook2Id": "01sAu000008t8zdIAA",
+      "UnitPrice": 899,
+      "IsActive": true
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "pbeOmniGridPanel"
+      },
+      "Product2Id": "01tAu00000J7NjQIAV",
+      "Pricebook2Id": "01sAu000008t8zdIAA",
+      "UnitPrice": 249,
+      "IsActive": true
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "pbeCampusPackage"
+      },
+      "Product2Id": "01tAu00000J7NjRIAV",
+      "Pricebook2Id": "01sAu000008t8zdIAA",
+      "UnitPrice": 7999,
+      "IsActive": true
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "pbeLectureZone"
+      },
+      "Product2Id": "01tAu00000J7NjSIAV",
+      "Pricebook2Id": "01sAu000008t8zdIAA",
+      "UnitPrice": 1599,
+      "IsActive": true
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "pbeStudyLabZone"
+      },
+      "Product2Id": "01tAu00000J7NjTIAV",
+      "Pricebook2Id": "01sAu000008t8zdIAA",
+      "UnitPrice": 1099,
+      "IsActive": true
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "pbeSpectrumDeskLamp"
+      },
+      "Product2Id": "01tAu00000J7NjUIAV",
+      "Pricebook2Id": "01sAu000008t8zdIAA",
+      "UnitPrice": 179,
+      "IsActive": true
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "pbeRetailPackage"
+      },
+      "Product2Id": "01tAu00000J7NjVIAV",
+      "Pricebook2Id": "01sAu000008t8zdIAA",
+      "UnitPrice": 5999,
+      "IsActive": true
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "pbeShoppingAisleZone"
+      },
+      "Product2Id": "01tAu00000J7NjWIAV",
+      "Pricebook2Id": "01sAu000008t8zdIAA",
+      "UnitPrice": 1199,
+      "IsActive": true
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "pbeFoodCourtZone"
+      },
+      "Product2Id": "01tAu00000J7NjXIAV",
+      "Pricebook2Id": "01sAu000008t8zdIAA",
+      "UnitPrice": 899,
+      "IsActive": true
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "pbePrismTrackLight"
+      },
+      "Product2Id": "01tAu00000J7NjYIAV",
+      "Pricebook2Id": "01sAu000008t8zdIAA",
+      "UnitPrice": 149,
+      "IsActive": true
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "pbeBistroPackage"
+      },
+      "Product2Id": "01tAu00000J7NjZIAV",
+      "Pricebook2Id": "01sAu000008t8zdIAA",
+      "UnitPrice": 3499,
+      "IsActive": true
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "pbeDiningFloorZone"
+      },
+      "Product2Id": "01tAu00000J7NjaIAF",
+      "Pricebook2Id": "01sAu000008t8zdIAA",
+      "UnitPrice": 999,
+      "IsActive": true
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "pbeChefGalleyZone"
+      },
+      "Product2Id": "01tAu00000J7NjbIAF",
+      "Pricebook2Id": "01sAu000008t8zdIAA",
+      "UnitPrice": 1099,
+      "IsActive": true
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "pbeFilamentGlowBulb"
+      },
+      "Product2Id": "01tAu00000J7NjcIAF",
+      "Pricebook2Id": "01sAu000008t8zdIAA",
+      "UnitPrice": 129,
+      "IsActive": true
+    }
+  ]
+}

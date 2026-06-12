@@ -1,0 +1,16 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "CON_PRIYA"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "FirstName": "Priya",
+      "LastName": "Nair",
+      "Email": "priya.nair@downtowncowork.example",
+      "Phone": "904-555-0102",
+      "Title": "Facilities Manager"
+    }
+  ]
+}

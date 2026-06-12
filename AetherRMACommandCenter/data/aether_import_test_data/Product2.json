@@ -1,0 +1,324 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_H_ROOT"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-H-ROOT",
+      "Name": "Home Premier Bundle",
+      "Family": "Residential",
+      "Type__c": "Level 1: Root",
+      "ProductClass": "Hardware",
+      "Description": "Complete smart home circadian lighting kit.",
+      "StockKeepingUnit": "SK-H-001",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-H-001"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_H_KITCH"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-H-KITCH",
+      "Name": "Kitchen Zone",
+      "Family": "Residential",
+      "Type__c": "Level 2: Zone",
+      "ProductClass": "Hardware",
+      "Description": "Container for all kitchen-specific lighting.",
+      "StockKeepingUnit": "SK-H-002",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-H-002"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_H_101"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-H-101",
+      "Name": "Lumina Under-Cabinet",
+      "Family": "Residential",
+      "Type__c": "Level 3: Component",
+      "ProductClass": "Hardware",
+      "Description": "White 6000K strips for task areas.",
+      "StockKeepingUnit": "SK-H-101",
+      "QuantityUnitOfMeasure": "Pack",
+      "ExternalId__c": "EXT-H-101"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_H_102"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-H-102",
+      "Name": "Island-Glow Pendant",
+      "Family": "Residential",
+      "Type__c": "Level 3: Component",
+      "ProductClass": "Finishing",
+      "Description": "Warm 3000K decorative hanging light.",
+      "StockKeepingUnit": "SK-H-102",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-H-102"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_O_ROOT"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-O-ROOT",
+      "Name": "Office Elite Suite",
+      "Family": "Corporate",
+      "Type__c": "Level 1: Root",
+      "ProductClass": "Hardware",
+      "Description": "Enterprise-grade office lighting ecosystem.",
+      "StockKeepingUnit": "SK-O-001",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-O-001"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_O_MEET"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-O-MEET",
+      "Name": "Meeting Room Area",
+      "Family": "Corporate",
+      "Type__c": "Level 2: Zone",
+      "ProductClass": "Hardware",
+      "Description": "Specialized lighting for video & collab.",
+      "StockKeepingUnit": "SK-O-002",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-O-002"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_O_CALL"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-O-CALL",
+      "Name": "Focus Call Pods",
+      "Family": "Corporate",
+      "Type__c": "Level 2: Zone",
+      "ProductClass": "Hardware",
+      "Description": "Integrated lighting for acoustic booths.",
+      "StockKeepingUnit": "SK-O-003",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-O-003"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_O_101"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-O-101",
+      "Name": "Omni-Grid LED",
+      "Family": "Corporate",
+      "Type__c": "Level 3: Component",
+      "ProductClass": "Hardware",
+      "Description": "2x2 Ceiling tile with Sky-Sync tech.",
+      "StockKeepingUnit": "SK-O-101",
+      "QuantityUnitOfMeasure": "Pack",
+      "ExternalId__c": "EXT-O-101"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_O_102"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-O-102",
+      "Name": "Linear Task Bar",
+      "Family": "Corporate",
+      "Type__c": "Level 3: Component",
+      "ProductClass": "Hardware",
+      "Description": "High-focus desk-integrated LED bar.",
+      "StockKeepingUnit": "SK-O-102",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-O-102"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_E_ROOT"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-E-ROOT",
+      "Name": "Campus Glow Pro",
+      "Family": "Education",
+      "Type__c": "Level 1: Root",
+      "ProductClass": "Hardware",
+      "Description": "Institutional lighting for schools/unis.",
+      "StockKeepingUnit": "SK-E-001",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-E-001"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_E_LECT"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-E-LECT",
+      "Name": "Lecture Hall Zone",
+      "Family": "Education",
+      "Type__c": "Level 2: Zone",
+      "ProductClass": "Hardware",
+      "Description": "High-lumen arrays for large auditoriums.",
+      "StockKeepingUnit": "SK-E-002",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-E-002"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_E_LAB"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-E-LAB",
+      "Name": "Study Lab Zone",
+      "Family": "Education",
+      "Type__c": "Level 2: Zone",
+      "ProductClass": "Hardware",
+      "Description": "Blue-light filtered zones for libraries.",
+      "StockKeepingUnit": "SK-E-003",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-E-003"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_E_101"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-E-101",
+      "Name": "Prism Wall Wash",
+      "Family": "Education",
+      "Type__c": "Level 3: Component",
+      "ProductClass": "Hardware",
+      "Description": "Specialized whiteboard illumination.",
+      "StockKeepingUnit": "SK-E-101",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-E-101"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_M_ROOT"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-M-ROOT",
+      "Name": "Retail Pulse Mall",
+      "Family": "Commercial",
+      "Type__c": "Level 1: Root",
+      "ProductClass": "Hardware",
+      "Description": "High-CRI mall-wide lighting package.",
+      "StockKeepingUnit": "SK-M-001",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-M-001"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_M_AISLE"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-M-AISLE",
+      "Name": "Shopping Aisle Zone",
+      "Family": "Commercial",
+      "Type__c": "Level 2: Zone",
+      "ProductClass": "Hardware",
+      "Description": "Track-based spotlighting for retail.",
+      "StockKeepingUnit": "SK-M-002",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-M-002"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_M_101"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-M-101",
+      "Name": "360-Swivel Spot",
+      "Family": "Commercial",
+      "Type__c": "Level 3: Component",
+      "ProductClass": "Hardware",
+      "Description": "Adjustable beam for product displays.",
+      "StockKeepingUnit": "SK-M-101",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-M-101"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_R_ROOT"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-R-ROOT",
+      "Name": "Bistro Ambiance",
+      "Family": "Hospitality",
+      "Type__c": "Level 1: Root",
+      "ProductClass": "Hardware",
+      "Description": "Multi-zone restaurant chain solution.",
+      "StockKeepingUnit": "SK-R-001",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-R-001"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_R_DIN"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-R-DIN",
+      "Name": "Dining Floor Zone",
+      "Family": "Hospitality",
+      "Type__c": "Level 2: Zone",
+      "ProductClass": "Finishing",
+      "Description": "Soft, warm atmospheric lighting zones.",
+      "StockKeepingUnit": "SK-R-002",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-R-002"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_R_CHEF"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-R-CHEF",
+      "Name": "Chef's Galley",
+      "Family": "Hospitality",
+      "Type__c": "Level 2: Zone",
+      "ProductClass": "Hardware",
+      "Description": "High-heat, high-visibility kitchen LEDs.",
+      "StockKeepingUnit": "SK-R-003",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-R-003"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_R_101"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-R-101",
+      "Name": "Filament Smart Bulb",
+      "Family": "Hospitality",
+      "Type__c": "Level 3: Component",
+      "ProductClass": "Finishing",
+      "Description": "Retro aesthetic with digital dimming.",
+      "StockKeepingUnit": "SK-R-101",
+      "QuantityUnitOfMeasure": "Pack",
+      "ExternalId__c": "EXT-R-101"
+    }
+  ]
+}

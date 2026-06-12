@@ -1,0 +1,17 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "ACC_DOWNTOWN"
+      },
+      "Name": "DownTown Office CoWork Inc.",
+      "Website": "https://www.downtowncowork.xyz",
+      "Account_Tier__c": "Gold",
+      "Phone": "904-555-0101",
+      "BillingCity": "Jacksonville",
+      "BillingState": "FL",
+      "BillingCountry": "USA"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "records": [
+    {
+      "attributes": { "type": "Account", "referenceId": "AccRef1" },
+      "Name": "Global Neon Inc",
+      "Global_UUID__c": "ATH-NEON-001",
+      "Type": "Customer - Direct",
+      "Industry": "Manufacturing",
+      "AnnualRevenue": 2000000,
+      "Description": "Scenario: High Revenue Opportunity vs High Financial Risk.",
+      "Contacts": {
+        "records": [
+          {
+            "attributes": { "type": "Contact", "referenceId": "ConRef1" },
+            "FirstName": "Sarah",
+            "LastName": "Luminous",
+            "Email": "sarah@globalneonxyz.com",
+            "Title": "Procurement Manager"
+          }
+        ]
+      }
+    },
+    {
+      "attributes": { "type": "Account", "referenceId": "AccRef2" },
+      "Name": "City Light Utilities",
+      "Global_UUID__c": "ATH-CITY-002",
+      "Type": "Customer - Direct",
+      "Industry": "Utilities",
+      "AnnualRevenue": 850000,
+      "Description": "Scenario: Production Halt (ERP) causing Relationship Risk.",
+      "Contacts": {
+        "records": [
+          {
+            "attributes": { "type": "Contact", "referenceId": "ConRef2" },
+            "FirstName": "James",
+            "LastName": "Watt",
+            "Email": "j.watt@xyzcitylights.govxyz",
+            "Title": "Operations Director"
+          }
+        ]
+      }
+    },
+    {
+      "attributes": { "type": "Account", "referenceId": "AccRef3" },
+      "Name": "Eco-Smart Warehousing",
+      "Global_UUID__c": "ATH-ECO-003",
+      "Type": "Customer - Channel",
+      "Industry": "Logistics",
+      "AnnualRevenue": 1200000,
+      "Description": "Scenario: Ready Inventory & Clean Billing - Ready for Upsell.",
+      "Contacts": {
+        "records": [
+          {
+            "attributes": { "type": "Contact", "referenceId": "ConRef3" },
+            "FirstName": "Elena",
+            "LastName": "Green",
+            "Email": "egreen@xyzecosmart.com",
+            "Title": "Sustainability Officer"
+          }
+        ]
+      }
+    },
+    {
+      "attributes": { "type": "Account", "referenceId": "AccRef4" },
+      "Name": "Aether Hospitality Group",
+      "Global_UUID__c": "ATH-HOSP-004",
+      "Type": "Prospect",
+      "Industry": "Hospitality",
+      "AnnualRevenue": 500000,
+      "Description": "New Prospect: Checking ERP for initial sample batch delivery.",
+      "Contacts": {
+        "records": [
+          {
+            "attributes": { "type": "Contact", "referenceId": "ConRef4" },
+            "FirstName": "Marcus",
+            "LastName": "Suite",
+            "Email": "m.suite@xyzaether.com",
+            "Title": "Regional Manager"
+          }
+        ]
+      }
+    },
+    {
+      "attributes": { "type": "Account", "referenceId": "AccRef5" },
+      "Name": "Bright Future Schools",
+      "Global_UUID__c": "ATH-EDU-005",
+      "Type": "Customer - Direct",
+      "Industry": "Education",
+      "AnnualRevenue": 300000,
+      "Description": "Legacy client: Testing historical billing context.",
+      "Contacts": {
+        "records": [
+          {
+            "attributes": { "type": "Contact", "referenceId": "ConRef5" },
+            "FirstName": "Linda",
+            "LastName": "Learn",
+            "Email": "linda@xyzbrightfuture.edu",
+            "Title": "Facilities Coordinator"
+          }
+        ]
+      }
+    }
+  ]
+}

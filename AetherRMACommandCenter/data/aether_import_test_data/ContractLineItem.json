@@ -1,0 +1,108 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "ContractLineItem",
+        "referenceId": "CLI_AST_HOME_ROOT_WAR"
+      },
+      "AssetId": "@AST_HOME_ROOT",
+      "PricebookEntryId": "@PBE_AE_H_ROOT",
+      "ServiceContractId": "@SC_WARRANTY",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17",
+      "Quantity": 1,
+      "UnitPrice": 0
+    },
+    {
+      "attributes": {
+        "type": "ContractLineItem",
+        "referenceId": "CLI_AST_HOME_ROOT_SA"
+      },
+      "AssetId": "@AST_HOME_ROOT",
+      "PricebookEntryId": "@PBE_AE_H_ROOT",
+      "ServiceContractId": "@SC_SERVICE_AGREEMENT",
+      "StartDate": "2027-03-18",
+      "EndDate": "2031-03-17",
+      "Quantity": 1,
+      "UnitPrice": 0
+    },
+    {
+      "attributes": {
+        "type": "ContractLineItem",
+        "referenceId": "CLI_AST_OFFICE_ROOT_WAR"
+      },
+      "AssetId": "@AST_OFFICE_ROOT",
+      "PricebookEntryId": "@PBE_AE_O_ROOT",
+      "ServiceContractId": "@SC_WARRANTY",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17",
+      "Quantity": 1,
+      "UnitPrice": 0
+    },
+    {
+      "attributes": {
+        "type": "ContractLineItem",
+        "referenceId": "CLI_AST_OFFICE_ROOT_SA"
+      },
+      "AssetId": "@AST_OFFICE_ROOT",
+      "PricebookEntryId": "@PBE_AE_O_ROOT",
+      "ServiceContractId": "@SC_SERVICE_AGREEMENT",
+      "StartDate": "2027-03-18",
+      "EndDate": "2031-03-17",
+      "Quantity": 1,
+      "UnitPrice": 0
+    },
+    {
+      "attributes": {
+        "type": "ContractLineItem",
+        "referenceId": "CLI_AST_HOME_KITCH_WAR"
+      },
+      "AssetId": "@AST_HOME_KITCH",
+      "PricebookEntryId": "@PBE_AE_H_KITCH",
+      "ServiceContractId": "@SC_WARRANTY",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17",
+      "Quantity": 1,
+      "UnitPrice": 0
+    },
+    {
+      "attributes": {
+        "type": "ContractLineItem",
+        "referenceId": "CLI_AST_HOME_KITCH_SA"
+      },
+      "AssetId": "@AST_HOME_KITCH",
+      "PricebookEntryId": "@PBE_AE_H_KITCH",
+      "ServiceContractId": "@SC_SERVICE_AGREEMENT",
+      "StartDate": "2027-03-18",
+      "EndDate": "2031-03-17",
+      "Quantity": 1,
+      "UnitPrice": 0
+    },
+    {
+      "attributes": {
+        "type": "ContractLineItem",
+        "referenceId": "CLI_AST_HOME_UNDERCAB_WAR"
+      },
+      "AssetId": "@AST_HOME_UNDERCAB",
+      "PricebookEntryId": "@PBE_AE_H_101",
+      "ServiceContractId": "@SC_WARRANTY",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17",
+      "Quantity": 1,
+      "UnitPrice": 0
+    },
+    {
+      "attributes": {
+        "type": "ContractLineItem",
+        "referenceId": "CLI_AST_HOME_UNDERCAB_SA"
+      },
+      "AssetId": "@AST_HOME_UNDERCAB",
+      "PricebookEntryId": "@PBE_AE_H_101",
+      "ServiceContractId": "@SC_SERVICE_AGREEMENT",
+      "StartDate": "2027-03-18",
+      "EndDate": "2031-03-17",
+      "Quantity": 1,
+      "UnitPrice": 0
+    }
+  ]
+}

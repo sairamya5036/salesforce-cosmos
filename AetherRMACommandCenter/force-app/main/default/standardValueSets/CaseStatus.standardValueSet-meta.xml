@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>false</default>
+        <label>New</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Working</fullName>
+        <default>false</default>
+        <label>Working</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated</fullName>
+        <default>false</default>
+        <label>Escalated</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open</fullName>
+        <default>true</default>
+        <label>Open</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>RMA Authorized</fullName>
+        <default>false</default>
+        <label>RMA Authorized</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Return</fullName>
+        <default>false</default>
+        <label>Pending Return</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Technical Inspection</fullName>
+        <default>false</default>
+        <label>Technical Inspection</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Credit Processed</fullName>
+        <default>false</default>
+        <label>Credit Processed</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Closed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Refund Approved</fullName>
+        <default>false</default>
+        <label>Closed - Refund Approved</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Refund Rejected - Manual Review Required</fullName>
+        <default>false</default>
+        <label>Refund Rejected - Manual Review Required</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Item Received</fullName>
+        <default>false</default>
+        <label>Item Received</label>
+        <closed>false</closed>
+    </standardValue>
+</StandardValueSet>

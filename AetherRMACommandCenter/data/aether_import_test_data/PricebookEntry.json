@@ -1,0 +1,244 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_H_ROOT"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_H_ROOT",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 2499,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_H_KITCH"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_H_KITCH",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 450,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_H_101"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_H_101",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 89,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_H_102"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_H_102",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 175,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_O_ROOT"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_O_ROOT",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 8500,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_O_MEET"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_O_MEET",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 1200,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_O_CALL"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_O_CALL",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 350,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_O_101"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_O_101",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 210,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_O_102"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_O_102",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 145,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_E_ROOT"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_E_ROOT",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 15000,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_E_LECT"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_E_LECT",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 2800,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_E_LAB"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_E_LAB",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 1500,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_E_101"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_E_101",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 175,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_M_ROOT"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_M_ROOT",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 25000,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_M_AISLE"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_M_AISLE",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 1100,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_M_101"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_M_101",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 145,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_R_ROOT"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_R_ROOT",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 4200,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_R_DIN"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_R_DIN",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 800,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_R_CHEF"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_R_CHEF",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 650,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_R_101"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_R_101",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 90,
+      "IsActive": true,
+      "UseStandardPrice": false
+    }
+  ]
+}

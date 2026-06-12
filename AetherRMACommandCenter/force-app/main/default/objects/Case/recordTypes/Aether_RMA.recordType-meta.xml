@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aether_RMA</fullName>
+    <active>true</active>
+    <businessProcess>AetherRMA</businessProcess>
+    <description>To handle returns for Aether Tech</description>
+    <label>Aether RMA</label>
+    <picklistValues>
+        <picklist>Diagnosis__c</picklist>
+        <values>
+            <fullName>Critical Hardware Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Damaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dead On Arrival %28DOA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fixed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lemon Law %2F Repeated Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logistics Loss %28Empty Box%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Safety Hazard Detected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unrepairable</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PotentialLiability__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Breakdown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipment Complexity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipment Design</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Installation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Performance</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Refund_Reason__c</picklist>
+        <values>
+            <fullName>Compliance Risk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hazard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Latent Manufacturing Defect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operational Deadlock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pro-Rata Lifecycle Credit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transit Integrity Breach</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wear and Tear</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SLAViolation__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Electrical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Structural</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

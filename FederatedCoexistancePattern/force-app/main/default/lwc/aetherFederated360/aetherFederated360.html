@@ -1,0 +1,97 @@
+<template>
+    <lightning-card title="Aether Federated 360" icon-name="standard:account">
+        <template if:true={isLoading}>
+            <div class="spinner-wrap">
+                <lightning-spinner alternative-text="Loading federated account context" size="medium"></lightning-spinner>
+            </div>
+        </template>
+
+        <template if:true={errorMessage}>
+            <div class="slds-p-horizontal_medium slds-p-bottom_medium">
+                <div class="slds-notify slds-notify_alert slds-theme_error" role="alert">
+                    <span class="slds-assistive-text">error</span>
+                    <h2>{errorMessage}</h2>
+                </div>
+            </div>
+        </template>
+
+        <template if:true={data}>
+            <div class="summary slds-p-horizontal_medium slds-p-bottom_medium">
+                <div class="summary-grid">
+                    <div>
+                        <p class="eyebrow">Account</p>
+                        <h2>{data.accountName}</h2>
+                    </div>
+                    <div>
+                        <p class="eyebrow">Global UUID</p>
+                        <p>{data.globalUuid}</p>
+                    </div>
+                    <div>
+                        <p class="eyebrow">Health Score</p>
+                        <p class={healthScoreClass}>{data.healthScore}</p>
+                    </div>
+                </div>
+
+                <template if:true={hasWarnings}>
+                    <div class="warnings">
+                        <template for:each={data.warnings} for:item="warning">
+                            <span key={warning} class="warning-pill">{warning}</span>
+                        </template>
+                    </div>
+                </template>
+            </div>
+
+            <lightning-tabset variant="scoped" class="tabs">
+                <lightning-tab label="Sales" value="sales">
+                    <div class="tab-body">
+                        <div class="metric-grid">
+                            <div class="metric-card">
+                                <span class="metric-label">Owner</span>
+                                <span class="metric-value">{data.crm.ownerName}</span>
+                            </div>
+                            <div class="metric-card">
+                                <span class="metric-label">Tier</span>
+                                <span class="metric-value">{data.crm.tier}</span>
+                            </div>
+                            <div class="metric-card">
+                                <span class="metric-label">Open Pipeline</span>
+                                <span class="metric-value">{formattedOpenPipeline}</span>
+                            </div>
+                            <div class="metric-card">
+                                <span class="metric-label">Open Cases</span>
+                                <span class="metric-value">{data.crm.openCases}</span>
+                            </div>
+                            <div class="metric-card">
+                                <span class="metric-label">Last Activity</span>
+                                <span class="metric-value">{formattedLastActivity}</span>
+                            </div>
+                            <div class="metric-card">
+                                <span class="metric-label">Website</span>
+                                <template if:true={data.crm.website}>
+                                    <span class="metric-value metric-link">
+                                        <a href={data.crm.website} target="_blank" rel="noopener noreferrer">{data.crm.website}</a>
+                                    </span>
+                                </template>
+                                <template if:false={data.crm.website}>
+                                    <span class="metric-value">Not available</span>
+                                </template>
+                            </div>
+                        </div>
+                    </div>
+                </lightning-tab>
+
+                <lightning-tab label="Operations" value="operations">
+                    <div class="tab-body">
+                        <c-aether-federated-operations data={data.erp}></c-aether-federated-operations>
+                    </div>
+                </lightning-tab>
+
+                <lightning-tab label="Finance" value="finance">
+                    <div class="tab-body">
+                        <c-aether-federated-finance data={data.billing}></c-aether-federated-finance>
+                    </div>
+                </lightning-tab>
+            </lightning-tabset>
+        </template>
+    </lightning-card>
+</template>

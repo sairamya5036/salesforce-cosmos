@@ -1,0 +1,108 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "ENT_AST_HOME_ROOT_WAR"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "AssetId": "@AST_HOME_ROOT",
+      "ContractLineItemId": "@CLI_AST_HOME_ROOT_WAR",
+      "ServiceContractId": "@SC_WARRANTY",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17",
+      "Name": "Warranty - AST_HOME_ROOT"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "ENT_AST_HOME_ROOT_SA"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "AssetId": "@AST_HOME_ROOT",
+      "ContractLineItemId": "@CLI_AST_HOME_ROOT_SA",
+      "ServiceContractId": "@SC_SERVICE_AGREEMENT",
+      "StartDate": "2027-03-18",
+      "EndDate": "2031-03-17",
+      "Name": "Service Agreement - AST_HOME_ROOT"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "ENT_AST_OFFICE_ROOT_WAR"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "AssetId": "@AST_OFFICE_ROOT",
+      "ContractLineItemId": "@CLI_AST_OFFICE_ROOT_WAR",
+      "ServiceContractId": "@SC_WARRANTY",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17",
+      "Name": "Warranty - AST_OFFICE_ROOT"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "ENT_AST_OFFICE_ROOT_SA"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "AssetId": "@AST_OFFICE_ROOT",
+      "ContractLineItemId": "@CLI_AST_OFFICE_ROOT_SA",
+      "ServiceContractId": "@SC_SERVICE_AGREEMENT",
+      "StartDate": "2027-03-18",
+      "EndDate": "2031-03-17",
+      "Name": "Service Agreement - AST_OFFICE_ROOT"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "ENT_AST_HOME_KITCH_WAR"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "AssetId": "@AST_HOME_KITCH",
+      "ContractLineItemId": "@CLI_AST_HOME_KITCH_WAR",
+      "ServiceContractId": "@SC_WARRANTY",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17",
+      "Name": "Warranty - AST_HOME_KITCH"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "ENT_AST_HOME_KITCH_SA"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "AssetId": "@AST_HOME_KITCH",
+      "ContractLineItemId": "@CLI_AST_HOME_KITCH_SA",
+      "ServiceContractId": "@SC_SERVICE_AGREEMENT",
+      "StartDate": "2027-03-18",
+      "EndDate": "2031-03-17",
+      "Name": "Service Agreement - AST_HOME_KITCH"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "ENT_AST_HOME_UNDERCAB_WAR"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "AssetId": "@AST_HOME_UNDERCAB",
+      "ContractLineItemId": "@CLI_AST_HOME_UNDERCAB_WAR",
+      "ServiceContractId": "@SC_WARRANTY",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17",
+      "Name": "Warranty - AST_HOME_UNDERCAB"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "ENT_AST_HOME_UNDERCAB_SA"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "AssetId": "@AST_HOME_UNDERCAB",
+      "ContractLineItemId": "@CLI_AST_HOME_UNDERCAB_SA",
+      "ServiceContractId": "@SC_SERVICE_AGREEMENT",
+      "StartDate": "2027-03-18",
+      "EndDate": "2031-03-17",
+      "Name": "Service Agreement - AST_HOME_UNDERCAB"
+    }
+  ]
+}

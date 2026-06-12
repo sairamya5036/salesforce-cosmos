@@ -1,0 +1,74 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "case1"
+      },
+      "RecordTypeId": "012Au00000BHNjRIAX",
+      "AccountId": "001Au00001Qb0G7IAJ",
+      "ContactId": "003Au00001X9X4TIAV",
+      "AssetId": "02iAu000008UjWAIA0",
+      "Subject": "RMA Request - Aether Home Premier Bundle",
+      "Status": "Open",
+      "Origin": "Phone",
+      "Priority": "Medium",
+      "Reason": "Performance",
+      "Type": "Electrical",
+      "Refund_Amount__c": 275,
+      "Refund_Reason__c": "Latent Manufacturing Defect"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "case2"
+      },
+      "RecordTypeId": "012Au00000BHNjRIAX",
+      "AccountId": "001Au00001Qb0G8IAJ",
+      "AssetId": "02iAu000008UjWRIA0",
+      "Subject": "RMA Request - Spectrum Desk Lamp",
+      "Status": "Pending Return",
+      "Origin": "Email",
+      "Priority": "High",
+      "Reason": "Equipment Design",
+      "Type": "Electronic",
+      "Refund_Amount__c": 125,
+      "Refund_Reason__c": "Critical"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "case3"
+      },
+      "RecordTypeId": "012Au00000BHNjRIAX",
+      "AccountId": "001Au00001Qb0G7IAJ",
+      "ContactId": "003Au00001X9X4TIAV",
+      "AssetId": "02iAu000008UjWQIA0",
+      "Subject": "RMA Request - Omni-Grid LED Panel",
+      "Status": "Technical Inspection",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "Reason": "Breakdown",
+      "Type": "Structural",
+      "Refund_Amount__c": 420,
+      "Refund_Reason__c": "Operational Deadlock"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "case4"
+      },
+      "RecordTypeId": "012Au00000BHNjRIAX",
+      "AccountId": "001Au00001Qb0G8IAJ",
+      "AssetId": "02iAu000008UjWSIA0",
+      "Subject": "RMA Request - Prism Track Light",
+      "Status": "RMA Authorized",
+      "Origin": "Phone",
+      "Priority": "Low",
+      "Reason": "Installation",
+      "Type": "Mechanical",
+      "Refund_Amount__c": 89,
+      "Refund_Reason__c": "Transit Integrity Breach"
+    }
+  ]
+}

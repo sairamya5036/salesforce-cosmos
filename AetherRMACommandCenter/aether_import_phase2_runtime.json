@@ -1,0 +1,34 @@
+[
+  {
+    "sobject": "PricebookEntry",
+    "files": [
+      "data/aether_import_runtime/PricebookEntry.json"
+    ],
+    "saveRefs": true,
+    "resolveRefs": true
+  },
+  {
+    "sobject": "ContractLineItem",
+    "files": [
+      "data/aether_import_runtime/ContractLineItem.json"
+    ],
+    "saveRefs": true,
+    "resolveRefs": true
+  },
+  {
+    "sobject": "Entitlement",
+    "files": [
+      "data/aether_import_runtime/Entitlement.json"
+    ],
+    "saveRefs": true,
+    "resolveRefs": true
+  },
+  {
+    "sobject": "Case",
+    "files": [
+      "data/aether_import_runtime/Case.json"
+    ],
+    "saveRefs": true,
+    "resolveRefs": true
+  }
+]

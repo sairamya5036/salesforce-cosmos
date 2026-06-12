@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Diagnosis__c</fullName>
+    <label>Diagnosis</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fixed</fullName>
+                <default>false</default>
+                <label>Fixed</label>
+            </value>
+            <value>
+                <fullName>Damaged</fullName>
+                <default>false</default>
+                <label>Damaged</label>
+            </value>
+            <value>
+                <fullName>Unrepairable</fullName>
+                <default>false</default>
+                <label>Unrepairable</label>
+            </value>
+            <value>
+                <fullName>Critical Hardware Failure</fullName>
+                <default>false</default>
+                <label>Critical Hardware Failure</label>
+            </value>
+            <value>
+                <fullName>Safety Hazard Detected</fullName>
+                <default>false</default>
+                <label>Safety Hazard Detected</label>
+            </value>
+            <value>
+                <fullName>Logistics Loss (Empty Box)</fullName>
+                <default>false</default>
+                <label>Logistics Loss (Empty Box)</label>
+            </value>
+            <value>
+                <fullName>Dead On Arrival (DOA)</fullName>
+                <default>false</default>
+                <label>Dead On Arrival (DOA)</label>
+            </value>
+            <value>
+                <fullName>Lemon Law / Repeated Failure</fullName>
+                <default>false</default>
+                <label>Lemon Law / Repeated Failure</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

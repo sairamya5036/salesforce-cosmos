@@ -1,0 +1,58 @@
+[
+  {
+    "sobject": "Pricebook2",
+    "files": [
+      "data/aether_import_test_data/Pricebook2.json"
+    ],
+    "saveRefs": true,
+    "resolveRefs": true
+  },
+  {
+    "sobject": "Product2",
+    "files": [
+      "data/aether_import_test_data/Product2.json"
+    ],
+    "saveRefs": true,
+    "resolveRefs": true
+  },
+  {
+    "sobject": "PricebookEntry",
+    "files": [
+      "data/aether_import_test_data/PricebookEntry.json"
+    ],
+    "saveRefs": true,
+    "resolveRefs": true
+  },
+  {
+    "sobject": "Account",
+    "files": [
+      "data/aether_import_test_data/Account.json"
+    ],
+    "saveRefs": true,
+    "resolveRefs": true
+  },
+  {
+    "sobject": "Contact",
+    "files": [
+      "data/aether_import_test_data/Contact.json"
+    ],
+    "saveRefs": true,
+    "resolveRefs": true
+  },
+  {
+    "sobject": "Asset",
+    "files": [
+      "data/aether_import_test_data/Asset.json"
+    ],
+    "saveRefs": true,
+    "resolveRefs": true
+  },
+  {
+    "sobject": "ServiceContract",
+    "files": [
+      "data/aether_import_test_data/ServiceContract.json"
+    ],
+    "saveRefs": true,
+    "resolveRefs": true
+  }
+]

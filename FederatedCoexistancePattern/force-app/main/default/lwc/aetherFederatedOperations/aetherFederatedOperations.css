@@ -1,0 +1,28 @@
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+}
+
+.tile {
+    background: linear-gradient(180deg, #ffffff 0%, #f2f7fb 100%);
+    border: 1px solid #d8e2ec;
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    min-height: 6rem;
+    padding: 1rem;
+}
+
+.label {
+    color: #5c6b73;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.value {
+    color: #16325c;
+    font-size: 1rem;
+    font-weight: 600;
+}

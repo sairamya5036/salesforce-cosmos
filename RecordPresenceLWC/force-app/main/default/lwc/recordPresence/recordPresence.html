@@ -1,0 +1,43 @@
+<template>
+  <lightning-card title={utilityTitle} icon-name="utility:preview">
+    <div class="slds-var-m-around_medium">
+      <div
+        class="slds-text-body_small slds-text-color_weak slds-var-m-bottom_small"
+      >
+        {statusMessage}
+      </div>
+
+      <template lwc:if={displayFields.length}>
+        <dl class="slds-list_horizontal slds-wrap slds-var-m-bottom_medium">
+          <template for:each={displayFields} for:item="field">
+            <div
+              key={field.name}
+              class="slds-item slds-size_1-of-1 slds-var-m-bottom_x-small"
+            >
+              <dt class="slds-text-title_caps">{field.label}</dt>
+              <dd>{field.value}</dd>
+            </div>
+          </template>
+        </dl>
+      </template>
+
+      <template lwc:if={viewers.length}>
+        <ul class="slds-list_vertical slds-has-dividers_bottom-space">
+          <template for:each={viewers} for:item="viewer">
+            <li key={viewer.userId} class="slds-item">
+              <lightning-icon
+                icon-name="utility:user"
+                size="xx-small"
+                class="slds-var-m-right_x-small"
+              ></lightning-icon>
+              {viewer.name}
+            </li>
+          </template>
+        </ul>
+      </template>
+      <template lwc:else>
+        <p>{emptyViewerMessage}</p>
+      </template>
+    </div>
+  </lightning-card>
+</template>

@@ -1,0 +1,109 @@
+.spinner-wrap {
+    min-height: 8rem;
+    position: relative;
+}
+
+.summary {
+    background:
+        linear-gradient(135deg, rgba(230, 242, 232, 1) 0%, rgba(245, 248, 242, 1) 100%);
+    border-bottom: 1px solid #d8dde6;
+}
+
+.summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap: 1rem;
+    align-items: end;
+}
+
+.eyebrow {
+    color: #5c6b73;
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.25rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.health-score {
+    border-radius: 999px;
+    display: inline-block;
+    font-weight: 700;
+    padding: 0.2rem 0.75rem;
+}
+
+.is-strong {
+    background: #dff5e1;
+    color: #0f6a2d;
+}
+
+.is-watch {
+    background: #fff1d6;
+    color: #8a5d00;
+}
+
+.is-risk {
+    background: #fde7e9;
+    color: #9c1d24;
+}
+
+.warnings {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.warning-pill {
+    background: #14323f;
+    border-radius: 999px;
+    color: #fff;
+    font-size: 0.75rem;
+    padding: 0.3rem 0.75rem;
+}
+
+.tabs {
+    padding: 0 1rem 1rem;
+}
+
+.tab-body {
+    padding-top: 1rem;
+}
+
+.metric-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+}
+
+.metric-card {
+    background: #f8fafc;
+    border: 1px solid #dde4eb;
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    min-height: 6rem;
+    padding: 1rem;
+}
+
+.metric-label {
+    color: #5c6b73;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.metric-value {
+    color: #16325c;
+    font-size: 1rem;
+    font-weight: 600;
+    word-break: break-word;
+}
+
+.metric-link a {
+    color: #0b5cab;
+}

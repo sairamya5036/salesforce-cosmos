@@ -1,0 +1,13 @@
+{
+  "orgName": "sairamyaguntur company",
+  "edition": "Developer",
+  "features": ["EnableSetPasswordInApi","ServiceCloud", "API", "AuthorApex"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
+}

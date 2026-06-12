@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Refund_Reason__c</fullName>
+    <label>Refund Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Compliance Risk</fullName>
+                <default>false</default>
+                <label>Compliance Risk</label>
+            </value>
+            <value>
+                <fullName>Latent Manufacturing Defect</fullName>
+                <default>false</default>
+                <label>Latent Manufacturing Defect</label>
+            </value>
+            <value>
+                <fullName>Operational Deadlock</fullName>
+                <default>false</default>
+                <label>Operational Deadlock</label>
+            </value>
+            <value>
+                <fullName>Transit Integrity Breach</fullName>
+                <default>false</default>
+                <label>Transit Integrity Breach</label>
+            </value>
+            <value>
+                <fullName>Pro-Rata Lifecycle Credit</fullName>
+                <default>false</default>
+                <label>Pro-Rata Lifecycle Credit</label>
+            </value>
+            <value>
+                <fullName>Hazard</fullName>
+                <default>false</default>
+                <label>Hazard</label>
+            </value>
+            <value>
+                <fullName>Wear and Tear</fullName>
+                <default>false</default>
+                <label>Wear and Tear</label>
+            </value>
+            <value>
+                <fullName>Critical</fullName>
+                <default>false</default>
+                <label>Critical</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,49 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app-foundation",
+      "default": false,
+      "package": "ApplicationFramework",
+      "versionName": "Version 1.0",
+      "versionNumber": "1.0.0.NEXT"
+    },
+    {
+      "path": "FederatedCoexistancePattern/force-app",
+      "default": true,
+      "package": "ProductOne",
+      "versionName": "Version 1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "dependencies": [
+        {
+          "package": "ApplicationFramework"
+        }
+      ]
+    },
+    {
+      "path": "AetherRMACommandCenter/force-app",
+      "default": false,
+      "package": "ProductTwo",
+      "versionName": "Version 1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "dependencies": [
+        {
+          "package": "ApplicationFramework"
+        }
+      ]
+    },
+    {
+      "path": "RecordPresenceLWC/force-app",
+      "default": false,
+      "package": "ProductThree",
+      "versionName": "Version 1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "dependencies": [
+        {
+          "package": "ApplicationFramework"
+        }
+      ]
+    }
+  ],
+  "sourceApiVersion": "60.0",
+  "namespace": ""
+}

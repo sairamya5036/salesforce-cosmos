@@ -1,0 +1,62 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "AST_HOME_ROOT"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "ContactId": "@CON_PRIYA",
+      "Product2Id": "@PROD_AE_H_ROOT",
+      "PurchaseDate": "2026-03-18",
+      "SerialNumber": "AETHOMEPKG042420261001",
+      "Name": "Home Premier Bundle - Installed",
+      "Asset_Type__c": "Package",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "AST_OFFICE_ROOT"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "ContactId": "@CON_PRIYA",
+      "Product2Id": "@PROD_AE_O_ROOT",
+      "PurchaseDate": "2026-03-18",
+      "SerialNumber": "AETOFFICE042420261002",
+      "Name": "Office Elite Suite - Installed",
+      "Asset_Type__c": "Package",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "AST_HOME_KITCH"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "ContactId": "@CON_PRIYA",
+      "Product2Id": "@PROD_AE_H_KITCH",
+      "PurchaseDate": "2026-03-18",
+      "SerialNumber": "AETHOMEKITCH042420261003",
+      "Name": "Kitchen Zone - Installed",
+      "Asset_Type__c": "Zone",
+      "Status": "Installed",
+      "ParentId": "@AST_HOME_ROOT"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "AST_HOME_UNDERCAB"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "ContactId": "@CON_PRIYA",
+      "Product2Id": "@PROD_AE_H_101",
+      "PurchaseDate": "2026-03-18",
+      "SerialNumber": "AETHOMEUC042420261004",
+      "Name": "Lumina Under-Cabinet - Installed",
+      "Asset_Type__c": "Component",
+      "Status": "Installed",
+      "ParentId": "@AST_HOME_ROOT"
+    }
+  ]
+}

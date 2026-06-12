@@ -1,0 +1,99 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CASE_RMA_001"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "ContactId": "@CON_PRIYA",
+      "AssetId": "@AST_HOME_UNDERCAB",
+      "Subject": "RMA requested for under-cabinet light",
+      "Description": "Customer reports flickering in Lumina Under-Cabinet after installation.",
+      "Type": "Product",
+      "Status": "New",
+      "Origin": "Phone",
+      "Priority": "Medium",
+      "Product_Name__c": "Aether Lighting",
+      "Inspection_Status__c": "Pending",
+      "Refund_Reason__c": "Product defect / service review",
+      "Refund_Amount__c": 0
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CASE_RMA_002"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "ContactId": "@CON_PRIYA",
+      "AssetId": "@AST_HOME_KITCH",
+      "Subject": "Refund request for kitchen zone",
+      "Description": "Customer requests refund review for Kitchen Zone due to delayed installation.",
+      "Type": "Refund",
+      "Status": "New",
+      "Origin": "Phone",
+      "Priority": "Medium",
+      "Product_Name__c": "Aether Lighting",
+      "Inspection_Status__c": "Pending",
+      "Refund_Reason__c": "Product defect / service review",
+      "Refund_Amount__c": 0
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CASE_RMA_003"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "ContactId": "@CON_PRIYA",
+      "AssetId": "@AST_HOME_ROOT",
+      "Subject": "Inspection required for home bundle",
+      "Description": "Root asset inspection needed before RMA approval.",
+      "Type": "Problem",
+      "Status": "Working",
+      "Origin": "Phone",
+      "Priority": "Medium",
+      "Product_Name__c": "Aether Lighting",
+      "Inspection_Status__c": "Pending",
+      "Refund_Reason__c": "Product defect / service review",
+      "Refund_Amount__c": 0
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CASE_RMA_004"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "ContactId": "@CON_PRIYA",
+      "AssetId": "@AST_OFFICE_ROOT",
+      "Subject": "Office suite replacement inquiry",
+      "Description": "Facilities team wants replacement eligibility validation.",
+      "Type": "Product",
+      "Status": "Escalated",
+      "Origin": "Phone",
+      "Priority": "Medium",
+      "Product_Name__c": "Aether Lighting",
+      "Inspection_Status__c": "Pending",
+      "Refund_Reason__c": "Product defect / service review",
+      "Refund_Amount__c": 0
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CASE_RMA_005"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "ContactId": "@CON_PRIYA",
+      "AssetId": "@AST_HOME_UNDERCAB",
+      "Subject": "Warranty entitlement confirmation",
+      "Description": "Customer asks whether warranty covers component replacement.",
+      "Type": "Question",
+      "Status": "New",
+      "Origin": "Phone",
+      "Priority": "Medium",
+      "Product_Name__c": "Aether Lighting",
+      "Inspection_Status__c": "Pending",
+      "Refund_Reason__c": "Product defect / service review",
+      "Refund_Amount__c": 0
+    }
+  ]
+}

@@ -1,0 +1,988 @@
+{
+  "description": "Aether RMA import test data. Load after metadata deployment using Salesforce CLI data tree import or convert into data loader CSVs. Uses referenceIds, not org-specific IDs.",
+  "records": [
+    {
+      "attributes": {
+        "type": "Pricebook2",
+        "referenceId": "PB_AETHER_STANDARD"
+      },
+      "Name": "Aether Test Pricebook",
+      "IsActive": true,
+      "Description": "Pricebook for Aether RMA showcase test data"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_H_ROOT"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-H-ROOT",
+      "Name": "Home Premier Bundle",
+      "Family": "Residential",
+      "Type__c": "Package",
+      "ProductClass": "Hardware",
+      "Description": "Complete smart home circadian lighting kit.",
+      "StockKeepingUnit": "SK-H-001",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-H-001"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_H_KITCH"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-H-KITCH",
+      "Name": "Kitchen Zone",
+      "Family": "Residential",
+      "Type__c": "Zone",
+      "ProductClass": "Hardware",
+      "Description": "Container for all kitchen-specific lighting.",
+      "StockKeepingUnit": "SK-H-002",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-H-002"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_H_101"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-H-101",
+      "Name": "Lumina Under-Cabinet",
+      "Family": "Residential",
+      "Type__c": "Component",
+      "ProductClass": "Hardware",
+      "Description": "White 6000K strips for task areas.",
+      "StockKeepingUnit": "SK-H-101",
+      "QuantityUnitOfMeasure": "Pack",
+      "ExternalId__c": "EXT-H-101"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_H_102"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-H-102",
+      "Name": "Island-Glow Pendant",
+      "Family": "Residential",
+      "Type__c": "Component",
+      "ProductClass": "Finishing",
+      "Description": "Warm 3000K decorative hanging light.",
+      "StockKeepingUnit": "SK-H-102",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-H-102"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_O_ROOT"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-O-ROOT",
+      "Name": "Office Elite Suite",
+      "Family": "Corporate",
+      "Type__c": "Package",
+      "ProductClass": "Hardware",
+      "Description": "Enterprise-grade office lighting ecosystem.",
+      "StockKeepingUnit": "SK-O-001",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-O-001"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_O_MEET"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-O-MEET",
+      "Name": "Meeting Room Area",
+      "Family": "Corporate",
+      "Type__c": "Zone",
+      "ProductClass": "Hardware",
+      "Description": "Specialized lighting for video & collab.",
+      "StockKeepingUnit": "SK-O-002",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-O-002"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_O_CALL"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-O-CALL",
+      "Name": "Focus Call Pods",
+      "Family": "Corporate",
+      "Type__c": "Zone",
+      "ProductClass": "Hardware",
+      "Description": "Integrated lighting for acoustic booths.",
+      "StockKeepingUnit": "SK-O-003",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-O-003"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_O_101"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-O-101",
+      "Name": "Omni-Grid LED",
+      "Family": "Corporate",
+      "Type__c": "Component",
+      "ProductClass": "Hardware",
+      "Description": "2x2 Ceiling tile with Sky-Sync tech.",
+      "StockKeepingUnit": "SK-O-101",
+      "QuantityUnitOfMeasure": "Pack",
+      "ExternalId__c": "EXT-O-101"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_O_102"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-O-102",
+      "Name": "Linear Task Bar",
+      "Family": "Corporate",
+      "Type__c": "Component",
+      "ProductClass": "Hardware",
+      "Description": "High-focus desk-integrated LED bar.",
+      "StockKeepingUnit": "SK-O-102",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-O-102"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_E_ROOT"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-E-ROOT",
+      "Name": "Campus Glow Pro",
+      "Family": "Education",
+      "Type__c": "Package",
+      "ProductClass": "Hardware",
+      "Description": "Institutional lighting for schools/unis.",
+      "StockKeepingUnit": "SK-E-001",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-E-001"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_E_LECT"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-E-LECT",
+      "Name": "Lecture Hall Zone",
+      "Family": "Education",
+      "Type__c": "Zone",
+      "ProductClass": "Hardware",
+      "Description": "High-lumen arrays for large auditoriums.",
+      "StockKeepingUnit": "SK-E-002",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-E-002"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_E_LAB"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-E-LAB",
+      "Name": "Study Lab Zone",
+      "Family": "Education",
+      "Type__c": "Zone",
+      "ProductClass": "Hardware",
+      "Description": "Blue-light filtered zones for libraries.",
+      "StockKeepingUnit": "SK-E-003",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-E-003"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_E_101"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-E-101",
+      "Name": "Prism Wall Wash",
+      "Family": "Education",
+      "Type__c": "Component",
+      "ProductClass": "Hardware",
+      "Description": "Specialized whiteboard illumination.",
+      "StockKeepingUnit": "SK-E-101",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-E-101"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_M_ROOT"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-M-ROOT",
+      "Name": "Retail Pulse Mall",
+      "Family": "Commercial",
+      "Type__c": "Package",
+      "ProductClass": "Hardware",
+      "Description": "High-CRI mall-wide lighting package.",
+      "StockKeepingUnit": "SK-M-001",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-M-001"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_M_AISLE"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-M-AISLE",
+      "Name": "Shopping Aisle Zone",
+      "Family": "Commercial",
+      "Type__c": "Zone",
+      "ProductClass": "Hardware",
+      "Description": "Track-based spotlighting for retail.",
+      "StockKeepingUnit": "SK-M-002",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-M-002"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_M_101"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-M-101",
+      "Name": "360-Swivel Spot",
+      "Family": "Commercial",
+      "Type__c": "Component",
+      "ProductClass": "Hardware",
+      "Description": "Adjustable beam for product displays.",
+      "StockKeepingUnit": "SK-M-101",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-M-101"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_R_ROOT"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-R-ROOT",
+      "Name": "Bistro Ambiance",
+      "Family": "Hospitality",
+      "Type__c": "Package",
+      "ProductClass": "Hardware",
+      "Description": "Multi-zone restaurant chain solution.",
+      "StockKeepingUnit": "SK-R-001",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-R-001"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_R_DIN"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-R-DIN",
+      "Name": "Dining Floor Zone",
+      "Family": "Hospitality",
+      "Type__c": "Zone",
+      "ProductClass": "Finishing",
+      "Description": "Soft, warm atmospheric lighting zones.",
+      "StockKeepingUnit": "SK-R-002",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-R-002"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_R_CHEF"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-R-CHEF",
+      "Name": "Chef's Galley",
+      "Family": "Hospitality",
+      "Type__c": "Zone",
+      "ProductClass": "Hardware",
+      "Description": "High-heat, high-visibility kitchen LEDs.",
+      "StockKeepingUnit": "SK-R-003",
+      "QuantityUnitOfMeasure": "Each",
+      "ExternalId__c": "EXT-R-003"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "PROD_AE_R_101"
+      },
+      "IsActive": true,
+      "ProductCode": "AE-R-101",
+      "Name": "Filament Smart Bulb",
+      "Family": "Hospitality",
+      "Type__c": "Component",
+      "ProductClass": "Finishing",
+      "Description": "Retro aesthetic with digital dimming.",
+      "StockKeepingUnit": "SK-R-101",
+      "QuantityUnitOfMeasure": "Pack",
+      "ExternalId__c": "EXT-R-101"
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_H_ROOT"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_H_ROOT",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 2499,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_H_KITCH"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_H_KITCH",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 450,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_H_101"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_H_101",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 89,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_H_102"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_H_102",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 175,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_O_ROOT"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_O_ROOT",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 8500,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_O_MEET"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_O_MEET",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 1200,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_O_CALL"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_O_CALL",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 350,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_O_101"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_O_101",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 210,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_O_102"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_O_102",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 145,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_E_ROOT"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_E_ROOT",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 15000,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_E_LECT"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_E_LECT",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 2800,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_E_LAB"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_E_LAB",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 1500,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_E_101"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_E_101",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 175,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_M_ROOT"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_M_ROOT",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 25000,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_M_AISLE"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_M_AISLE",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 1100,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_M_101"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_M_101",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 145,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_R_ROOT"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_R_ROOT",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 4200,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_R_DIN"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_R_DIN",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 800,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_R_CHEF"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_R_CHEF",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 650,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PBE_AE_R_101"
+      },
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Product2Id": "@PROD_AE_R_101",
+      "CurrencyIsoCode": "USD",
+      "UnitPrice": 90,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "ACC_DOWNTOWN"
+      },
+      "Name": "DownTown Office CoWork Inc.",
+      "Website": "https://www.downtowncowork.xyz",
+      "Account_Tier__c": "Gold",
+      "Phone": "904-555-0101",
+      "BillingCity": "Jacksonville",
+      "BillingState": "FL",
+      "BillingCountry": "USA"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "CON_PRIYA"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "FirstName": "Priya",
+      "LastName": "Nair",
+      "Email": "priya.nair@downtowncowork.example",
+      "Phone": "904-555-0102",
+      "Title": "Facilities Manager"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "AST_HOME_ROOT"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "ContactId": "@CON_PRIYA",
+      "Product2Id": "@PROD_AE_H_ROOT",
+      "PurchaseDate": "2026-03-18",
+      "SerialNumber": "AETHOMEPKG042420261001",
+      "Name": "Home Premier Bundle - Installed",
+      "Asset_Type__c": "Package",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "AST_OFFICE_ROOT"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "ContactId": "@CON_PRIYA",
+      "Product2Id": "@PROD_AE_O_ROOT",
+      "PurchaseDate": "2026-03-18",
+      "SerialNumber": "AETOFFICE042420261002",
+      "Name": "Office Elite Suite - Installed",
+      "Asset_Type__c": "Package",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "AST_HOME_KITCH"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "ContactId": "@CON_PRIYA",
+      "Product2Id": "@PROD_AE_H_KITCH",
+      "PurchaseDate": "2026-03-18",
+      "SerialNumber": "AETHOMEKITCH042420261003",
+      "Name": "Kitchen Zone - Installed",
+      "Asset_Type__c": "Zone",
+      "Status": "Installed",
+      "ParentId": "@AST_HOME_ROOT"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "AST_HOME_UNDERCAB"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "ContactId": "@CON_PRIYA",
+      "Product2Id": "@PROD_AE_H_101",
+      "PurchaseDate": "2026-03-18",
+      "SerialNumber": "AETHOMEUC042420261004",
+      "Name": "Lumina Under-Cabinet - Installed",
+      "Asset_Type__c": "Component",
+      "Status": "Installed",
+      "ParentId": "@AST_HOME_ROOT"
+    },
+    {
+      "attributes": {
+        "type": "ServiceContract",
+        "referenceId": "SC_WARRANTY"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "ContactId": "@CON_PRIYA",
+      "Name": "Warranty-AETHOMEPKG042420261001",
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Service_Contract_Type__c": "Warranty",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17",
+      "Status": "Activated"
+    },
+    {
+      "attributes": {
+        "type": "ServiceContract",
+        "referenceId": "SC_SERVICE_AGREEMENT"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "ContactId": "@CON_PRIYA",
+      "Name": "Service Agreement-AETHOMEPKG042420261001",
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Service_Contract_Type__c": "Service Agreement",
+      "StartDate": "2027-03-18",
+      "EndDate": "2031-03-17",
+      "Status": "Activated"
+    },
+    {
+      "attributes": {
+        "type": "ContractLineItem",
+        "referenceId": "CLI_AST_HOME_ROOT_WAR"
+      },
+      "AssetId": "@AST_HOME_ROOT",
+      "PricebookEntryId": "@PBE_AE_H_ROOT",
+      "ServiceContractId": "@SC_WARRANTY",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17",
+      "Quantity": 1,
+      "UnitPrice": 0
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "ENT_AST_HOME_ROOT_WAR"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "AssetId": "@AST_HOME_ROOT",
+      "ContractLineItemId": "@CLI_AST_HOME_ROOT_WAR",
+      "ServiceContractId": "@SC_WARRANTY",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17",
+      "Name": "Warranty - AST_HOME_ROOT"
+    },
+    {
+      "attributes": {
+        "type": "ContractLineItem",
+        "referenceId": "CLI_AST_HOME_ROOT_SA"
+      },
+      "AssetId": "@AST_HOME_ROOT",
+      "PricebookEntryId": "@PBE_AE_H_ROOT",
+      "ServiceContractId": "@SC_SERVICE_AGREEMENT",
+      "StartDate": "2027-03-18",
+      "EndDate": "2031-03-17",
+      "Quantity": 1,
+      "UnitPrice": 0
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "ENT_AST_HOME_ROOT_SA"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "AssetId": "@AST_HOME_ROOT",
+      "ContractLineItemId": "@CLI_AST_HOME_ROOT_SA",
+      "ServiceContractId": "@SC_SERVICE_AGREEMENT",
+      "StartDate": "2027-03-18",
+      "EndDate": "2031-03-17",
+      "Name": "Service Agreement - AST_HOME_ROOT"
+    },
+    {
+      "attributes": {
+        "type": "ContractLineItem",
+        "referenceId": "CLI_AST_OFFICE_ROOT_WAR"
+      },
+      "AssetId": "@AST_OFFICE_ROOT",
+      "PricebookEntryId": "@PBE_AE_O_ROOT",
+      "ServiceContractId": "@SC_WARRANTY",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17",
+      "Quantity": 1,
+      "UnitPrice": 0
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "ENT_AST_OFFICE_ROOT_WAR"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "AssetId": "@AST_OFFICE_ROOT",
+      "ContractLineItemId": "@CLI_AST_OFFICE_ROOT_WAR",
+      "ServiceContractId": "@SC_WARRANTY",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17",
+      "Name": "Warranty - AST_OFFICE_ROOT"
+    },
+    {
+      "attributes": {
+        "type": "ContractLineItem",
+        "referenceId": "CLI_AST_OFFICE_ROOT_SA"
+      },
+      "AssetId": "@AST_OFFICE_ROOT",
+      "PricebookEntryId": "@PBE_AE_O_ROOT",
+      "ServiceContractId": "@SC_SERVICE_AGREEMENT",
+      "StartDate": "2027-03-18",
+      "EndDate": "2031-03-17",
+      "Quantity": 1,
+      "UnitPrice": 0
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "ENT_AST_OFFICE_ROOT_SA"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "AssetId": "@AST_OFFICE_ROOT",
+      "ContractLineItemId": "@CLI_AST_OFFICE_ROOT_SA",
+      "ServiceContractId": "@SC_SERVICE_AGREEMENT",
+      "StartDate": "2027-03-18",
+      "EndDate": "2031-03-17",
+      "Name": "Service Agreement - AST_OFFICE_ROOT"
+    },
+    {
+      "attributes": {
+        "type": "ContractLineItem",
+        "referenceId": "CLI_AST_HOME_KITCH_WAR"
+      },
+      "AssetId": "@AST_HOME_KITCH",
+      "PricebookEntryId": "@PBE_AE_H_KITCH",
+      "ServiceContractId": "@SC_WARRANTY",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17",
+      "Quantity": 1,
+      "UnitPrice": 0
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "ENT_AST_HOME_KITCH_WAR"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "AssetId": "@AST_HOME_KITCH",
+      "ContractLineItemId": "@CLI_AST_HOME_KITCH_WAR",
+      "ServiceContractId": "@SC_WARRANTY",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17",
+      "Name": "Warranty - AST_HOME_KITCH"
+    },
+    {
+      "attributes": {
+        "type": "ContractLineItem",
+        "referenceId": "CLI_AST_HOME_KITCH_SA"
+      },
+      "AssetId": "@AST_HOME_KITCH",
+      "PricebookEntryId": "@PBE_AE_H_KITCH",
+      "ServiceContractId": "@SC_SERVICE_AGREEMENT",
+      "StartDate": "2027-03-18",
+      "EndDate": "2031-03-17",
+      "Quantity": 1,
+      "UnitPrice": 0
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "ENT_AST_HOME_KITCH_SA"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "AssetId": "@AST_HOME_KITCH",
+      "ContractLineItemId": "@CLI_AST_HOME_KITCH_SA",
+      "ServiceContractId": "@SC_SERVICE_AGREEMENT",
+      "StartDate": "2027-03-18",
+      "EndDate": "2031-03-17",
+      "Name": "Service Agreement - AST_HOME_KITCH"
+    },
+    {
+      "attributes": {
+        "type": "ContractLineItem",
+        "referenceId": "CLI_AST_HOME_UNDERCAB_WAR"
+      },
+      "AssetId": "@AST_HOME_UNDERCAB",
+      "PricebookEntryId": "@PBE_AE_H_101",
+      "ServiceContractId": "@SC_WARRANTY",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17",
+      "Quantity": 1,
+      "UnitPrice": 0
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "ENT_AST_HOME_UNDERCAB_WAR"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "AssetId": "@AST_HOME_UNDERCAB",
+      "ContractLineItemId": "@CLI_AST_HOME_UNDERCAB_WAR",
+      "ServiceContractId": "@SC_WARRANTY",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17",
+      "Name": "Warranty - AST_HOME_UNDERCAB"
+    },
+    {
+      "attributes": {
+        "type": "ContractLineItem",
+        "referenceId": "CLI_AST_HOME_UNDERCAB_SA"
+      },
+      "AssetId": "@AST_HOME_UNDERCAB",
+      "PricebookEntryId": "@PBE_AE_H_101",
+      "ServiceContractId": "@SC_SERVICE_AGREEMENT",
+      "StartDate": "2027-03-18",
+      "EndDate": "2031-03-17",
+      "Quantity": 1,
+      "UnitPrice": 0
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "ENT_AST_HOME_UNDERCAB_SA"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "AssetId": "@AST_HOME_UNDERCAB",
+      "ContractLineItemId": "@CLI_AST_HOME_UNDERCAB_SA",
+      "ServiceContractId": "@SC_SERVICE_AGREEMENT",
+      "StartDate": "2027-03-18",
+      "EndDate": "2031-03-17",
+      "Name": "Service Agreement - AST_HOME_UNDERCAB"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CASE_RMA_001"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "ContactId": "@CON_PRIYA",
+      "AssetId": "@AST_HOME_UNDERCAB",
+      "Subject": "RMA requested for under-cabinet light",
+      "Description": "Customer reports flickering in Lumina Under-Cabinet after installation.",
+      "Type": "Product",
+      "Status": "New",
+      "Origin": "Phone",
+      "Priority": "Medium",
+      "Product_Name__c": "Aether Lighting",
+      "Inspection_Status__c": "Pending",
+      "Refund_Reason__c": "Product defect / service review",
+      "Refund_Amount__c": 0
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CASE_RMA_002"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "ContactId": "@CON_PRIYA",
+      "AssetId": "@AST_HOME_KITCH",
+      "Subject": "Refund request for kitchen zone",
+      "Description": "Customer requests refund review for Kitchen Zone due to delayed installation.",
+      "Type": "Refund",
+      "Status": "New",
+      "Origin": "Phone",
+      "Priority": "Medium",
+      "Product_Name__c": "Aether Lighting",
+      "Inspection_Status__c": "Pending",
+      "Refund_Reason__c": "Product defect / service review",
+      "Refund_Amount__c": 0
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CASE_RMA_003"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "ContactId": "@CON_PRIYA",
+      "AssetId": "@AST_HOME_ROOT",
+      "Subject": "Inspection required for home bundle",
+      "Description": "Root asset inspection needed before RMA approval.",
+      "Type": "Problem",
+      "Status": "Working",
+      "Origin": "Phone",
+      "Priority": "Medium",
+      "Product_Name__c": "Aether Lighting",
+      "Inspection_Status__c": "Pending",
+      "Refund_Reason__c": "Product defect / service review",
+      "Refund_Amount__c": 0
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CASE_RMA_004"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "ContactId": "@CON_PRIYA",
+      "AssetId": "@AST_OFFICE_ROOT",
+      "Subject": "Office suite replacement inquiry",
+      "Description": "Facilities team wants replacement eligibility validation.",
+      "Type": "Product",
+      "Status": "Escalated",
+      "Origin": "Phone",
+      "Priority": "Medium",
+      "Product_Name__c": "Aether Lighting",
+      "Inspection_Status__c": "Pending",
+      "Refund_Reason__c": "Product defect / service review",
+      "Refund_Amount__c": 0
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CASE_RMA_005"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "ContactId": "@CON_PRIYA",
+      "AssetId": "@AST_HOME_UNDERCAB",
+      "Subject": "Warranty entitlement confirmation",
+      "Description": "Customer asks whether warranty covers component replacement.",
+      "Type": "Question",
+      "Status": "New",
+      "Origin": "Phone",
+      "Priority": "Medium",
+      "Product_Name__c": "Aether Lighting",
+      "Inspection_Status__c": "Pending",
+      "Refund_Reason__c": "Product defect / service review",
+      "Refund_Amount__c": 0
+    }
+  ]
+}

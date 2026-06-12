@@ -1,0 +1,32 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "ServiceContract",
+        "referenceId": "SC_WARRANTY"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "ContactId": "@CON_PRIYA",
+      "Name": "Warranty-AETHOMEPKG042420261001",
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Service_Contract_Type__c": "Warranty",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17",
+      "Status": "Activated"
+    },
+    {
+      "attributes": {
+        "type": "ServiceContract",
+        "referenceId": "SC_SERVICE_AGREEMENT"
+      },
+      "AccountId": "@ACC_DOWNTOWN",
+      "ContactId": "@CON_PRIYA",
+      "Name": "Service Agreement-AETHOMEPKG042420261001",
+      "Pricebook2Id": "@PB_AETHER_STANDARD",
+      "Service_Contract_Type__c": "Service Agreement",
+      "StartDate": "2027-03-18",
+      "EndDate": "2031-03-17",
+      "Status": "Activated"
+    }
+  ]
+}

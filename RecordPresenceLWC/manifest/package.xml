@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>RecordPresenceController</members>
+        <members>RecordPresenceControllerTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>RecordPresenceEvent__e.ObjectApiName__c</members>
+        <members>RecordPresenceEvent__e.RecordId__c</members>
+        <members>RecordPresenceEvent__e.UserAction__c</members>
+        <members>RecordPresenceEvent__e.UserId__c</members>
+        <members>RecordPresenceEvent__e.UserName__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Record_Presence_User</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>recordPresence</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>RecordPresenceEvent__e</members>
+        <name>CustomObject</name>
+    </types>
+    <version>66.0</version>
+</Package>

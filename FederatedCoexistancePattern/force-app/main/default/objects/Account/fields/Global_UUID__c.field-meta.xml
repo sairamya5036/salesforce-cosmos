@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Global_UUID__c</fullName>
+    <description>Global external identifier used to federate ERP and billing data.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Stable key used by virtual integrations and mock services.</inlineHelpText>
+    <label>Global UUID</label>
+    <length>80</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

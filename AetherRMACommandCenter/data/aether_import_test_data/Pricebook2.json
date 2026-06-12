@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Pricebook2",
+        "referenceId": "PB_AETHER_STANDARD"
+      },
+      "Name": "Aether Test Pricebook",
+      "IsActive": true,
+      "Description": "Pricebook for Aether RMA showcase test data"
+    }
+  ]
+}
