@@ -1,4 +1,7 @@
 # Record Presence: Real-Time Viewer Awareness for Salesforce Console
+![Service Cloud Record Presence Info](assets/Service%20Cloud%20Record%20Presence%20Info.png)
+![Sales Cloud Record Presence Info](assets/Sales%20Cloud%20Record%20Presence%20Info.png)
+
 
 Record Presence is a reusable Salesforce Lightning Web Component that shows console users who else is viewing the same record in real time.
 
