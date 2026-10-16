@@ -102,10 +102,12 @@ Follow [steps.md](steps.md) to assign permission sets, seed fictional cases, con
 
 ## Visuals
 
-![Native HXL manager console preview](docs/screenshots/manager-console-preview.png)
+![Native HXL manager console | Claude View](<docs/screenshots/Screenshot 2026-10-16 at 4.18.43 PM.png>)
 
-<details>
+<details>ß
 <summary>Rep layout and Salesforce approval</summary>
+
+![Native HXL manager console preview](docs/screenshots/manager-console-preview.png)
 
 ![Native HXL rep queue preview](docs/screenshots/rep-queue-preview.png)
 
