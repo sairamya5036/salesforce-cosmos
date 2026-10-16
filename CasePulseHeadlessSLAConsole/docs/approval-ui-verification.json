@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-16",
+  "org": "agOrg",
+  "cancelledWithoutChanges": true,
+  "approvedEscalation": true,
+  "followUpTasks": 1,
+  "repeatedApprovalTasks": 1,
+  "fixture": "Disposable synthetic browser test; approval was simulated by automation."
+}

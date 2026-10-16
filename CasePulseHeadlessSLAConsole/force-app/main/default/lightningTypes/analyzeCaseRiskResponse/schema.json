@@ -1,0 +1,13 @@
+{
+  "title": "Case Risk Response",
+  "type": "object",
+  "lightning:type": "lightning__objectType",
+  "unevaluatedProperties": false,
+  "lightning:tags": ["mcp"],
+  "properties": {
+    "console": {
+      "title": "Console",
+      "lightning:type": "@apexClassType/c__CaseRiskAnalyzer$ConsoleData"
+    }
+  }
+}

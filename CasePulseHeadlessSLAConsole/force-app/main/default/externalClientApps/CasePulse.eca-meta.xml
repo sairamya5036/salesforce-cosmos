@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ExternalClientApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+  <contactEmail>sairamya945641@agentforce.com</contactEmail>
+  <description>
+    CasePulse AI: shared Salesforce OAuth registration for Claude and Slack.
+  </description>
+  <distributionState>Local</distributionState>
+  <isProtected>false</isProtected>
+  <label>CasePulse AI</label>
+</ExternalClientApplication>

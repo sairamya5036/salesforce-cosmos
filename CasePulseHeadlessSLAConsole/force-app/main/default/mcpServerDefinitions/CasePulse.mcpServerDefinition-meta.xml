@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<McpServerDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+  <description>
+    Explainable SLA rescue analysis and approval preparation. Never expose
+    CaseRescueApply.
+  </description>
+  <masterLabel>CasePulse AI</masterLabel>
+  <tools>
+    <apiDefinition>
+      <apiIdentifier>aa:apex-CaseRiskAnalyzer</apiIdentifier>
+      <apiSource>API_CATALOG</apiSource>
+      <operation>CaseRiskAnalyzer</operation>
+    </apiDefinition>
+    <uiResource>casePulseConsole</uiResource>
+    <descriptionOverride>
+      Find cases needing attention. MY shows own cases; TEAM requires manager
+      permission. Read-only. Render the CasePulse widget.
+    </descriptionOverride>
+    <destructive>false</destructive>
+    <idempotent>true</idempotent>
+    <openWorld>false</openWorld>
+    <readOnly>true</readOnly>
+    <returnDirect>false</returnDirect>
+    <toolName>analyzeCaseRisk</toolName>
+    <toolTitle>Analyze Case Risk</toolTitle>
+  </tools>
+  <tools>
+    <apiDefinition>
+      <apiIdentifier>fa:flow-CasePulse_Prepare_Rescue</apiIdentifier>
+      <apiSource>API_CATALOG</apiSource>
+      <operation>CasePulse_Prepare_Rescue</operation>
+    </apiDefinition>
+    <descriptionOverride>
+      Validate a caseId and return the Salesforce approval link. Does not change
+      records. The human must approve in Salesforce.
+    </descriptionOverride>
+    <destructive>false</destructive>
+    <idempotent>true</idempotent>
+    <openWorld>false</openWorld>
+    <readOnly>true</readOnly>
+    <returnDirect>false</returnDirect>
+    <toolName>prepareCaseRescue</toolName>
+    <toolTitle>Prepare Case Rescue</toolTitle>
+  </tools>
+  <resources>
+    <resourceName>casePulseConsole</resourceName>
+    <resourceTitle>CasePulse SLA Rescue Console</resourceTitle>
+    <resourceUri>ui://widget/lightningType/c__analyzeCaseRisk</resourceUri>
+  </resources>
+</McpServerDefinition>

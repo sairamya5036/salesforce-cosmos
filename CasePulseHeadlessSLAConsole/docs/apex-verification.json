@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-16",
+  "orgAlias": "agOrg",
+  "coreDeployment": "0AfgK00000WjQATSA3",
+  "status": "Succeeded",
+  "testsRun": 10,
+  "failures": 0,
+  "coverage": [
+    {
+      "name": "CaseRescueApply",
+      "covered": 53,
+      "total": 56,
+      "percent": 94.6
+    },
+    {
+      "name": "CaseRescuePrepare",
+      "covered": 23,
+      "total": 26,
+      "percent": 88.5
+    },
+    {
+      "name": "CaseRiskAnalyzer",
+      "covered": 167,
+      "total": 178,
+      "percent": 93.8
+    },
+    {
+      "name": "CasePulseReopen",
+      "covered": 1,
+      "total": 1,
+      "percent": 100.0
+    },
+    {
+      "name": "CasePulseReopenHandler",
+      "covered": 11,
+      "total": 12,
+      "percent": 91.7
+    },
+    {
+      "name": "CasePulseAccess",
+      "covered": 28,
+      "total": 29,
+      "percent": 96.6
+    }
+  ],
+  "casePulseCoveragePercent": 93.7,
+  "coverageNote": "Coverage of CasePulse classes and trigger in this test run; not org-wide coverage.",
+  "testMethods": [
+    "approvedRescueIsAtomicAndIdempotent",
+    "bulkManagerRescueAndChangedOwnership",
+    "closeThenReopen",
+    "demoFilterKeepsScope",
+    "deniedReadAndAtomicWriteFailure",
+    "flowPreparationDoesNotWrite",
+    "managerScopeAndRanking",
+    "repScopeAndDenial",
+    "scoringBoundaries",
+    "truncatedAndEmptyResults"
+  ]
+}

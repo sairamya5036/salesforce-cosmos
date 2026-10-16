@@ -1,0 +1,54 @@
+{
+  "title": "CasePulse Console",
+  "type": "object",
+  "properties": {
+    "attributes": {
+      "lightning:type": "lightning__objectType",
+      "properties": {
+        "title": {
+          "title": "title",
+          "lightning:type": "lightning__textType"
+        },
+        "analyzedAt": {
+          "title": "analyzedAt",
+          "lightning:type": "lightning__textType"
+        },
+        "notice": {
+          "title": "notice",
+          "lightning:type": "lightning__textType"
+        },
+        "criticalCount": {
+          "title": "criticalCount",
+          "lightning:type": "lightning__numberType"
+        },
+        "highCount": {
+          "title": "highCount",
+          "lightning:type": "lightning__numberType"
+        },
+        "watchCount": {
+          "title": "watchCount",
+          "lightning:type": "lightning__numberType"
+        },
+        "healthyCount": {
+          "title": "healthyCount",
+          "lightning:type": "lightning__numberType"
+        },
+        "empty": {
+          "title": "Empty",
+          "lightning:type": "lightning__booleanType"
+        },
+        "cases": {
+          "title": "Ranked Cases",
+          "type": "array",
+          "items": {
+            "lightning:type": "@apexClassType/c__CaseRiskAnalyzer$RiskCase"
+          }
+        },
+        "refreshPrompt": {
+          "title": "Refresh Prompt",
+          "lightning:type": "lightning__textType"
+        }
+      }
+    }
+  }
+}

@@ -42,6 +42,18 @@
           "package": "ApplicationFramework"
         }
       ]
+    },
+    {
+      "path": "CasePulseHeadlessSLAConsole/force-app",
+      "default": false,
+      "package": "ProductFour",
+      "versionName": "Version 1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "dependencies": [
+        {
+          "package": "ApplicationFramework"
+        }
+      ]
     }
   ],
   "sourceApiVersion": "60.0",

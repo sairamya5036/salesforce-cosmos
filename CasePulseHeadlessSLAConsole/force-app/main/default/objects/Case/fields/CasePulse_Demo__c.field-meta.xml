@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fullName>CasePulse_Demo__c</fullName>
+  <description>Marks fictional portfolio data.</description>
+  <label>CasePulse Demo</label>
+  <type>Checkbox</type>
+  <defaultValue>false</defaultValue>
+</CustomField>

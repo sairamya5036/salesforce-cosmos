@@ -1,0 +1,21 @@
+{
+  "renderer": {
+    "componentOverrides": {
+      "$": {
+        "definition": "@widget/c/casePulseConsole",
+        "attributes": {
+          "title": "{!$attrs.outputValues.console.title}",
+          "analyzedAt": "{!$attrs.outputValues.console.analyzedAt}",
+          "notice": "{!$attrs.outputValues.console.notice}",
+          "criticalCount": "{!$attrs.outputValues.console.criticalCount}",
+          "highCount": "{!$attrs.outputValues.console.highCount}",
+          "watchCount": "{!$attrs.outputValues.console.watchCount}",
+          "healthyCount": "{!$attrs.outputValues.console.healthyCount}",
+          "empty": "{!$attrs.outputValues.console.empty}",
+          "cases": "{!$attrs.outputValues.console.cases}",
+          "refreshPrompt": "{!$attrs.outputValues.console.refreshPrompt}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "display_information": {
+    "name": "CasePulse AI",
+    "description": "Explainable SLA rescue from Salesforce"
+  },
+  "features": {
+    "bot_user": {
+      "display_name": "CasePulse AI",
+      "always_online": true
+    }
+  },
+  "oauth_config": {
+    "scopes": {
+      "bot": [
+        "mcp:connect"
+      ]
+    }
+  },
+  "settings": {
+    "socket_mode_enabled": false
+  },
+  "external_auth_providers": {
+    "oauth2": {
+      "mcp_casepulse": {
+        "provider_type": "CUSTOM",
+        "options": {
+          "client_id": "REPLACE_WITH_CASEPULSE_ECA_CLIENT_ID",
+          "scope": [
+            "mcp_api",
+            "refresh_token"
+          ],
+          "provider_name": "Salesforce CasePulse",
+          "authorization_url": "https://YOUR_MY_DOMAIN.my.salesforce.com/services/oauth2/authorize",
+          "token_url": "https://YOUR_MY_DOMAIN.my.salesforce.com/services/oauth2/token",
+          "identity_config": null,
+          "use_pkce": true,
+          "token_url_config": {
+            "use_basic_auth_scheme": false
+          }
+        }
+      }
+    }
+  },
+  "mcp_servers": {
+    "casepulse": {
+      "url": "https://api.salesforce.com/platform/mcp/v1/custom/CasePulse",
+      "auth_type": "manual_auth",
+      "auth_provider_key": "mcp_casepulse"
+    }
+  }
+}

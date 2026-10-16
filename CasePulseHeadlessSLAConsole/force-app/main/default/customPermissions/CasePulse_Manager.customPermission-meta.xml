@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+  <label>CasePulse Manager</label>
+  <description>
+    Access the configured support queue and direct user members, subject to
+    sharing.
+  </description>
+</CustomPermission>
